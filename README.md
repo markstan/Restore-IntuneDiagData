@@ -32,7 +32,7 @@ Use these steps to run this utility:
 ## FAQ
 
 
-Q: Why this tool?
+Q: What is the aim of this tool?
 
 A: The Intune collect diagnostics feature provides admins a simple way to collect data without having to log on to managed Windows devices.  This tool aims to allow admins to quickly locate the data they are looking for.
 
@@ -44,7 +44,11 @@ Q:  I'd like to add addtional files to the collected data.  Where can I suggest 
 
 A:  The best way to make this kind of request is through your Microsoft account team.  They can assist you with filing a design change request.
 
+Q: When should I use 'collect diagnostics' and when should I use Intune One Data Collector (ODC)?
 
+A: 'Collect diagnostics' is a great tool for gathering data from a remote computer without needing to either log on to a Windows device interactively or to interrupt your users.  As such, this tool has many advantages for admins in their daily work.
+
+[ODC](https://github.com/markstan/IntuneOneDataCollector) collects data for more specialized troubleshooting.  A lot of data gathered by this tool is aimed at very specific scenarios that require deep knowledge of the various OS components that Intune manages.  ODC is XML-driven, which also allows us to very quickly add new data collection rules.  As such, this tool is most useful to Microsoft Support engineers (but anyone who finds it useful is more than welcome to it :) ).
 
 
 ## Copyright
